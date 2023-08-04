@@ -1,0 +1,206 @@
+{
+    "products": [
+        {
+            "productName": "American Pizza Special",
+            "productPrice": "50",
+            "newProductContent": [
+                "Mayonaise",
+                " Spice",
+                " Food"
+            ],
+            "productCatID": 2,
+            "productImage": "C:\\fakepath\\IMG_0005.jpg",
+            "productStatus": "publish",
+            "companyID": 2,
+            "companyNumber": 258852030761,
+            "productExtras": [
+                {
+                    "id": 1,
+                    "Name": "Mussarela",
+                    "Cost": "40",
+                    "productName": ""
+                },
+                {
+                    "id": 2,
+                    "Name": "King Spice",
+                    "Cost": "60"
+                }
+            ],
+            "id": 1
+        },
+        {
+            "productName": "Burger King",
+            "productPrice": "70",
+            "newProductContent": [
+                "mayonaise",
+                " batatas",
+                " burger"
+            ],
+            "productCatID": 1,
+            "productImage": "C:\\fakepath\\Profile.jpg",
+            "productStatus": "publish",
+            "companyID": 2,
+            "companyNumber": 258852030761,
+            "productExtras": [
+                {
+                    "id": 1,
+                    "Name": "Spice",
+                    "Cost": "10",
+                    "productName": ""
+                },
+                {
+                    "id": 2,
+                    "Name": "Sauce",
+                    "Cost": "16"
+                }
+            ],
+            "id": 2
+        },
+        {
+            "productName": "ok",
+            "productPrice": "30,00",
+            "newProductContent": [
+                "alho",
+                "cebola",
+                "alface",
+                "bife"
+            ],
+            "productCatID": 4,
+            "productImage": "C:\\fakepath\\loginBanner.png",
+            "productStatus": "publish",
+            "companyID": 1,
+            "companyNumber": 5555654321,
+            "productExtras": [
+                {
+                    "id": 1,
+                    "Name": "",
+                    "Cost": 0,
+                    "extraName": "a"
+                }
+            ],
+            "id": 3
+        },
+        {
+            "productName": "h",
+            "productPrice": "66",
+            "newProductContent": [
+                "9"
+            ],
+            "productCatID": 1,
+            "productImage": "C:\\fakepath\\loginBanner.png",
+            "productStatus": "pending",
+            "companyID": 1,
+            "companyNumber": 55992066235,
+            "productExtras": [
+                {
+                    "id": 1,
+                    "Name": "",
+                    "Cost": 0,
+                    "extraName": "n",
+                    "extraCost": "1"
+                }
+            ],
+            "id": 4
+        },
+        {
+            "productName": "mmm",
+            "productPrice": "90,00",
+            "newProductContent": [
+                "ok",
+                "0"
+            ],
+            "productCatID": 4,
+            "productImage": "C:\\fakepath\\loginBanner.png",
+            "productStatus": "publish",
+            "companyID": 1,
+            "companyNumber": 5555654321,
+            "productExtras": [
+                {
+                    "id": 1,
+                    "Name": "",
+                    "Cost": 0,
+                    "extraCost": "1"
+                }
+            ],
+            "id": 5
+        }
+    ],
+    "product_category": [
+        {
+            "category_name": "Burger King",
+            "companyID": 2,
+            "id": 1
+        },
+        {
+            "category_name": "Pizza Mexicano",
+            "companyID": 2,
+            "id": 2
+        },
+        {
+            "category_name": "Meals",
+            "companyID": 2,
+            "id": 3
+        },
+        {
+            "category_name": "teste",
+            "companyID": 1,
+            "id": 4
+        }
+    ],
+    "users": [
+        {
+            "username": "Parrilla Restaurante",
+            "email": "parrilla@gmail.com",
+            "contact": "5555654321",
+            "password": "12345",
+            "id": 1
+        },
+        {
+            "username": "IndieRestaurante",
+            "email": "indian@gmail.com",
+            "contact": "258852030761",
+            "password": "123456",
+            "id": 2
+        }
+    ],
+    "clients_requests": [
+        [
+            {
+                "id": 1,
+                "code": "cZcA2",
+                "productName": "Burger King Completo",
+                "productPrice": "65",
+                "productContent": [
+                    "mayonaise",
+                    " molho de tomate",
+                    " hamburger"
+                ],
+                "productStatus": "pending",
+                "companyID": 2,
+                "ItemQuantity": 1
+            }
+        ]
+    ],
+    "ShippingCosts": [
+        {
+            "cost": "50",
+            "companyID": 2,
+            "id": 3
+        },
+        {
+            "cost": 50,
+            "companyID": 2,
+            "id": 4
+        },
+        {
+            "cost": 60,
+            "companyID": 2,
+            "id": 5
+        },
+        {
+            "cost": 0,
+            "companyID": 2,
+            "id": 6
+        }
+    ]
+}
